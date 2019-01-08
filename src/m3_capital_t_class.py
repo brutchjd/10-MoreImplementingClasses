@@ -327,7 +327,7 @@ class CapitalT(object):
         # IMPORTANT RESTRICTION: You are NOT permitted to add any instance
         # variables beyond  h_rect  and  v_rect, at any point of this exercise.
         #######################################################################
-        
+
         clone = CapitalT(rg.Point((self.v_rect.get_upper_right_corner().x + self.v_rect.get_upper_left_corner().x) / 2,
                                  (self.h_rect.get_upper_right_corner().y + self.v_rect.get_lower_right_corner().y) / 2),
                         self.h_rect.get_upper_right_corner().x - self.h_rect.get_upper_left_corner().x,
